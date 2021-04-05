@@ -37,109 +37,123 @@
 		<title>That Nusrsery Life</title>
 	</head>
 	<body>
-		<div class="container">
-			<!-- H E A D L I N E  -->
-			<div class="d-flex justify-content-center headline">
-				<div>THAT NURSERY LIFE</div>
-			</div>
-			<!-- N A V B A R -->
-
+		<!-- H E A D L I N E  -->
+		<div class="d-flex justify-content-center headline">
 			<nav class="navbar navbar-expand-lg navbar-light">
-				<div class="container-fluid">
-					<a class="navbar-brand" href="#"
-						><img src="logo.svg" class="logo" alt=""
-					/></a>
-					<button
-						class="navbar-toggler"
-						type="button"
-						data-bs-toggle="collapse"
-						data-bs-target="#navbarSupportedContent"
-						aria-controls="navbarSupportedContent"
+				<li class="nav-item dropdown">
+					<a
+						class="nav-link dropdown-toggle"
+						href="#"
+						id="navbarDropdown"
+						role="button"
+						data-bs-toggle="dropdown"
 						aria-expanded="false"
-						aria-label="Toggle navigation"
 					>
-						<span class="navbar-toggler-icon"></span>
-					</button>
-					<div
-						class="collapse navbar-collapse w-100 nav-fill"
-						id="navbarSupportedContent"
-					>
-						<ul class="navbar-nav me-auto mb-2 mb-lg-0">
-							<li class="nav-item">
-								<a
-									class="nav-link active"
-									aria-current="page"
-									href="#"
-									>Home</a
-								>
-							</li>
-							<li class="nav-item">
-								<a class="nav-link" href="#">Link</a>
-							</li>
-							<li class="nav-item dropdown">
-								<a
-									class="nav-link dropdown-toggle"
-									href="#"
-									id="navbarDropdown"
-									role="button"
-									data-bs-toggle="dropdown"
-									aria-expanded="false"
-								>
-									Dropdown
-								</a>
-								<ul
-									class="dropdown-menu"
-									aria-labelledby="navbarDropdown"
-								>
-									<li>
-										<a class="dropdown-item" href="#"
-											>Action</a
-										>
-									</li>
-									<li>
-										<a class="dropdown-item" href="#"
-											>Another action</a
-										>
-									</li>
-									<li><hr class="dropdown-divider" /></li>
-									<li>
-										<a class="dropdown-item" href="#"
-											>Something else here</a
-										>
-									</li>
-								</ul>
-							</li>
-							<li class="nav-item">
-								<a
-									class="nav-link disabled"
-									href="#"
-									tabindex="-1"
-									aria-disabled="true"
-									>Disabled</a
-								>
-							</li>
-						</ul>
-						<form class="d-flex">
-							<input
-								class="form-control me-2"
-								type="search"
-								placeholder="Search"
-								aria-label="Search"
-							/>
-							<button
-								class="btn btn-outline-success"
-								type="submit"
-							>
-								<i class="fas fa-search"></i>
-							</button>
-						</form>
-					</div>
-				</div>
+						My TNL
+					</a>
+					<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+						<li>
+							<a class="dropdown-item" href="#">Login</a>
+						</li>
+						<li>
+							<a class="dropdown-item" href="#">My TNL Profile</a>
+						</li>
+					</ul>
+				</li>
 			</nav>
-			<i><p class="date ml-4 mt-3" style="color: grey"></p></i>
+			<div class="banner">THAT NURSERY LIFE</div>
+		</div>
+		<!-- N A V B A R -->
+
+		<nav class="navbar navbar-expand-lg navbar-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"
+					><img src="logo.svg" class="logo" alt=""
+				/></a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div
+					class="collapse navbar-collapse w-100 nav-fill"
+					id="navbarSupportedContent"
+				>
+					<ul class="navbar-nav justify-content-between w-100">
+						<li class="nav-item">
+							<a
+								class="nav-link active"
+								aria-current="page"
+								href="#"
+								>Inspiration</a
+							>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="#">Lifestyle</a>
+						</li>
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								My TNL
+							</a>
+							<ul
+								class="dropdown-menu"
+								aria-labelledby="navbarDropdown"
+							>
+								<li>
+									<a class="dropdown-item" href="#">Login</a>
+								</li>
+								<li>
+									<a class="dropdown-item" href="#"
+										>My TNL Profile</a
+									>
+								</li>
+							</ul>
+						</li>
+						<li class="nav-item">
+							<a
+								class="nav-link disabled"
+								href="#"
+								tabindex="-1"
+								aria-disabled="true"
+								>Tools</a
+							>
+						</li>
+						<ul>
+							<form class="d-flex">
+								<input
+									class="form-control me-2"
+									type="search"
+									placeholder="Search"
+									aria-label="Search"
+								/>
+								<button class="btn" type="submit">
+									<i class="fas fa-search"></i>
+								</button>
+							</form>
+						</ul>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<i><p class="date ml-5 mt-3" style="color: grey"></p></i>
+		<div class="container">
 			<!-- L E A D - A R T I C L E  -->
+
 			<div class="row">
-				<div class="col-lg-8 mt-5 leadArticle">
+				<div class="col-lg-7 mt-5 leadArticle">
 					<div class="jumbotron">
 						<img src="" alt="" />
 						<div class="innerText">
@@ -154,7 +168,9 @@
 						</div>
 					</div>
 				</div>
-				<div class="col-lg-4 mt-5 sidePanel">
+				<div
+					class="col-lg-4 mt-5 sidePanel d-flex justify-content-around"
+				>
 					<div class="row">
 						<div class="col-lg-6">
 							<h4>CATEGORIES</h4>
@@ -174,6 +190,9 @@
 				</div>
 			</div>
 		</div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"></script>
 		<script src="app.js"></script>
 	</body>
 </html>
